@@ -1,0 +1,40 @@
+Parameter,Description,Unit,Value,25–75 Percentile
+Vg,Glucose distribution volume,dL/kg,1.00,[0.73–1.33]
+k1,Rate constant for liver glucose uptake,1/min,0.066,[0.053–0.073]
+k2,Rate constant for peripheral glucose uptake,1/min,0.043,[0.020–0.072]
+Vi,Insulin distribution volume,L/kg,0.041,[0.039–0.062]
+VC,Insulin PK distribution volume,L,fixed,-
+k01,PK rate constant,1/min,fixed,-
+k12,PK rate constant,1/min,fixed,-
+k21,PK rate constant,1/min,fixed,-
+m1,Insulin appearance in liver,1/min,0.314,[0.245–1.812]
+m2,Hepatic insulin clearance,1/min,0.268,-
+m4,Liver to periphery insulin transfer,1/min,0.443,[0.299–0.617]
+m5,Peripheral insulin clearance,1/min,0.260,[0.057–0.420]
+m6,Insulin effect decay,1/min,0.017,[0.011–0.021]
+HEb,Basal hepatic insulin extraction,-,(derived from A2),-
+aG,Glucose-dependent HE slope,dL/mg,0.005,[0.003–0.008]
+a0G,Extrapolated HE at zero glucose,-,(derived from A4),-
+kabs,Intestinal absorption rate,1/min,0.0542,[0.0293–0.1000]
+kmax,Max gastric emptying rate,1/min,0.0426,[0.0318–0.0869]
+kmin,Min gastric emptying rate,1/min,0.0076,[0.0066–0.0100]
+b,Gastric emptying curve inflection 1,-,0.73,[0.58–0.83]
+d,Gastric emptying curve inflection 2,-,0.10,[0.06–0.14]
+f,Fractional intestinal absorption,-,0.9,-
+kp1,EGP at zero glucose and insulin,mg/kg/min,(derived from A9),-
+kp2,Hepatic glucose effectiveness,1/min,0.0008,[0.0007–0.0036]
+kp3,Hepatic insulin sensitivity,mg/kg/min per pmol/L,0.0060,[0.0046–0.0085]
+kp4,Portal insulin sensitivity,mg/kg/min per pmol/kg,0.0484,[0.0333–0.0656]
+ki,Rate of delayed insulin action,1/min,0.0075,[0.0056–0.0101]
+Fcns,Insulin-independent glucose utilization,mg/kg/min,1,-
+Vmx,Max insulin-sensitive glucose uptake,mg/kg/min per pmol/L,0.034,[0.020–0.055]
+Km0,Michaelis-Menten glucose amount,mg/kg,466.2,[362.5–511.1]
+p2U,Insulin action rate on glucose utilization,1/min,0.058,[0.025–0.097]
+r1,Risk function parameter,-,fixed,-
+r2,Risk function parameter,-,fixed,-
+ke1,Glomerular filtration rate,1/min,0.0005,-
+ke2,Renal glucose threshold,mg/kg,339,-
+α,Delay between glucose and insulin,-,0.034,[0.023–0.041]
+Φs,β-cell responsivity to glucose (static),10⁻⁹ min⁻¹,20.30,[12.51–28.03]
+Φd,β-cell responsivity to glucose rate of change,10⁻⁹,286.0,[148.6–404.6]
+h,Glucose threshold for insulin secretion,mg/dL,98.7,[75.6–133.2]
